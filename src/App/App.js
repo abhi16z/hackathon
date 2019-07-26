@@ -1,9 +1,20 @@
-import React, { PureComponent } from 'react';
+import React from "react";
+import MapLoader from '../map/MapLoader';
+import Suggestions from '../Suggestions';
+import AppHeader from './AppHeader';
 
-export default class App extends PureComponent {
+import './app.css';
+
+export default class App extends React.PureComponent {
   render() {
     return (
-      <div> Hackathon UI app </div>
+      <div className="app-container">
+        <div className="side-bar">
+          <AppHeader />
+          <Suggestions />
+        </div>
+        <MapLoader />
+      </div>
     );
   }
 }
