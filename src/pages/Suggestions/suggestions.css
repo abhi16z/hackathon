@@ -1,0 +1,12 @@
+.suggestions-container {
+    height: 100%;
+    background-color: #f7f7f7;
+    margin: 20px;
+    padding: 20px;
+}
+
+.header-divider {
+    width: 100%;
+    height: 1px;
+    border: 0.5px solid grey;
+}

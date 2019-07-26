@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .app-container {
@@ -8,4 +9,8 @@ body {
 
 .side-bar {
     width: 30%;
+}
+
+.map-bar {
+    width: 70%;
 }

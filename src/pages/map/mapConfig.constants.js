@@ -13,11 +13,11 @@ const foodPlaces = {
 };
 
 const nightLife = {
-  strokeColor: 'red',
+  strokeColor: 'black',
   strokeOpacity: 1,
   strokeWeight: 2,
-  fillColor: 'green',
-  fillOpacity: 0.4,
+  fillColor: 'black',
+  fillOpacity: 1,
 };
 
 const adventure = {

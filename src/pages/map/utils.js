@@ -6,7 +6,7 @@ export const Marker = window.google.maps.Marker;
 export function createMarker(mapObj, position, label, title, configObject = {}) {
   const { draggable = false, animation = window.google.maps.Animation.DROP } = configObject;
   return new Marker({
-    mapObj,
+    map: mapObj,
     position,
     label,
     title,
